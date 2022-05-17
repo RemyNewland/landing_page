@@ -1,0 +1,149 @@
+body {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    width: 800px;
+    height: 75px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.header_right {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.header_right a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.header_left {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.hero_text {
+    background-color: #1f2937;
+    color: white; 
+    width: 400px;
+    text-align: left;
+    margin-top: -30px;
+
+}
+
+.hero_text h1 {
+    font-weight:bold;
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+
+.hero_text p {
+    font-weight: lighter;
+    margin-top: -15px;
+    width: 275px;
+    
+}
+
+.hero_img {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden; 
+}
+
+.hero_img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.skills {
+    display: flex;
+    width: 800px;
+    color: White;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.skills-content {
+    display: flex;
+    background-color: #1f2937;
+    color: white; 
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.box {
+    display: flex;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.box p:hover {
+    font-size: 150%;
+}
+
+.contact {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    width: 800px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.contact h1 { 
+    font-size: 30px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.contact-content a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
